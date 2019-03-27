@@ -1,0 +1,24 @@
+PODS:
+  - Koloda (4.6):
+    - pop (~> 1.0)
+  - pop (1.0.12)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Koloda
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Koloda
+    - pop
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Koloda: bcf5acded25fc49020d1447ed8ddd87e14d01e7e
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: df5fa3852ada885568c51358146851c7b526ae1d
+
+COCOAPODS: 1.5.3

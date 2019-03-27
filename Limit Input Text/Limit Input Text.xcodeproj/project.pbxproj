@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB10DD3B221D44ED0019A8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10DD3A221D44ED0019A8A7 /* AppDelegate.swift */; };
+		AB10DD3D221D44ED0019A8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10DD3C221D44ED0019A8A7 /* ViewController.swift */; };
+		AB10DD40221D44ED0019A8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10DD3E221D44ED0019A8A7 /* Main.storyboard */; };
+		AB10DD42221D44EE0019A8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB10DD41221D44EE0019A8A7 /* Assets.xcassets */; };
+		AB10DD45221D44EE0019A8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10DD43221D44EE0019A8A7 /* LaunchScreen.storyboard */; };
+		AB10DD50221D44EE0019A8A7 /* Limit_Input_TextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10DD4F221D44EE0019A8A7 /* Limit_Input_TextTests.swift */; };
+		AB10DD5B221D44EE0019A8A7 /* Limit_Input_TextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10DD5A221D44EE0019A8A7 /* Limit_Input_TextUITests.swift */; };
+		AB10DD69221D4C4A0019A8A7 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB10DD68221D4C490019A8A7 /* avatar.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB10DD4C221D44EE0019A8A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB10DD2F221D44EC0019A8A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB10DD36221D44ED0019A8A7;
+			remoteInfo = "Limit Input Text";
+		};
+		AB10DD57221D44EE0019A8A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB10DD2F221D44EC0019A8A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB10DD36221D44ED0019A8A7;
+			remoteInfo = "Limit Input Text";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB10DD37221D44ED0019A8A7 /* Limit Input Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Limit Input Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB10DD3A221D44ED0019A8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB10DD3C221D44ED0019A8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB10DD3F221D44ED0019A8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB10DD41221D44EE0019A8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB10DD44221D44EE0019A8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB10DD46221D44EE0019A8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB10DD4B221D44EE0019A8A7 /* Limit Input TextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Limit Input TextTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB10DD4F221D44EE0019A8A7 /* Limit_Input_TextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limit_Input_TextTests.swift; sourceTree = "<group>"; };
+		AB10DD51221D44EE0019A8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB10DD56221D44EE0019A8A7 /* Limit Input TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Limit Input TextUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB10DD5A221D44EE0019A8A7 /* Limit_Input_TextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limit_Input_TextUITests.swift; sourceTree = "<group>"; };
+		AB10DD5C221D44EE0019A8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB10DD68221D4C490019A8A7 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB10DD34221D44ED0019A8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD48221D44EE0019A8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD53221D44EE0019A8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB10DD2E221D44EC0019A8A7 = {
+			isa = PBXGroup;
+			children = (
+				AB10DD39221D44ED0019A8A7 /* Limit Input Text */,
+				AB10DD4E221D44EE0019A8A7 /* Limit Input TextTests */,
+				AB10DD59221D44EE0019A8A7 /* Limit Input TextUITests */,
+				AB10DD38221D44ED0019A8A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB10DD38221D44ED0019A8A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB10DD37221D44ED0019A8A7 /* Limit Input Text.app */,
+				AB10DD4B221D44EE0019A8A7 /* Limit Input TextTests.xctest */,
+				AB10DD56221D44EE0019A8A7 /* Limit Input TextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB10DD39221D44ED0019A8A7 /* Limit Input Text */ = {
+			isa = PBXGroup;
+			children = (
+				AB10DD68221D4C490019A8A7 /* avatar.jpg */,
+				AB10DD3A221D44ED0019A8A7 /* AppDelegate.swift */,
+				AB10DD3C221D44ED0019A8A7 /* ViewController.swift */,
+				AB10DD3E221D44ED0019A8A7 /* Main.storyboard */,
+				AB10DD41221D44EE0019A8A7 /* Assets.xcassets */,
+				AB10DD43221D44EE0019A8A7 /* LaunchScreen.storyboard */,
+				AB10DD46221D44EE0019A8A7 /* Info.plist */,
+			);
+			path = "Limit Input Text";
+			sourceTree = "<group>";
+		};
+		AB10DD4E221D44EE0019A8A7 /* Limit Input TextTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB10DD4F221D44EE0019A8A7 /* Limit_Input_TextTests.swift */,
+				AB10DD51221D44EE0019A8A7 /* Info.plist */,
+			);
+			path = "Limit Input TextTests";
+			sourceTree = "<group>";
+		};
+		AB10DD59221D44EE0019A8A7 /* Limit Input TextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB10DD5A221D44EE0019A8A7 /* Limit_Input_TextUITests.swift */,
+				AB10DD5C221D44EE0019A8A7 /* Info.plist */,
+			);
+			path = "Limit Input TextUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB10DD36221D44ED0019A8A7 /* Limit Input Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB10DD5F221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input Text" */;
+			buildPhases = (
+				AB10DD33221D44ED0019A8A7 /* Sources */,
+				AB10DD34221D44ED0019A8A7 /* Frameworks */,
+				AB10DD35221D44ED0019A8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Limit Input Text";
+			productName = "Limit Input Text";
+			productReference = AB10DD37221D44ED0019A8A7 /* Limit Input Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB10DD4A221D44EE0019A8A7 /* Limit Input TextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB10DD62221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input TextTests" */;
+			buildPhases = (
+				AB10DD47221D44EE0019A8A7 /* Sources */,
+				AB10DD48221D44EE0019A8A7 /* Frameworks */,
+				AB10DD49221D44EE0019A8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB10DD4D221D44EE0019A8A7 /* PBXTargetDependency */,
+			);
+			name = "Limit Input TextTests";
+			productName = "Limit Input TextTests";
+			productReference = AB10DD4B221D44EE0019A8A7 /* Limit Input TextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB10DD55221D44EE0019A8A7 /* Limit Input TextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB10DD65221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input TextUITests" */;
+			buildPhases = (
+				AB10DD52221D44EE0019A8A7 /* Sources */,
+				AB10DD53221D44EE0019A8A7 /* Frameworks */,
+				AB10DD54221D44EE0019A8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB10DD58221D44EE0019A8A7 /* PBXTargetDependency */,
+			);
+			name = "Limit Input TextUITests";
+			productName = "Limit Input TextUITests";
+			productReference = AB10DD56221D44EE0019A8A7 /* Limit Input TextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB10DD2F221D44EC0019A8A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ternence;
+				TargetAttributes = {
+					AB10DD36221D44ED0019A8A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB10DD4A221D44EE0019A8A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB10DD36221D44ED0019A8A7;
+					};
+					AB10DD55221D44EE0019A8A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB10DD36221D44ED0019A8A7;
+					};
+				};
+			};
+			buildConfigurationList = AB10DD32221D44EC0019A8A7 /* Build configuration list for PBXProject "Limit Input Text" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB10DD2E221D44EC0019A8A7;
+			productRefGroup = AB10DD38221D44ED0019A8A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB10DD36221D44ED0019A8A7 /* Limit Input Text */,
+				AB10DD4A221D44EE0019A8A7 /* Limit Input TextTests */,
+				AB10DD55221D44EE0019A8A7 /* Limit Input TextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB10DD35221D44ED0019A8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB10DD69221D4C4A0019A8A7 /* avatar.jpg in Resources */,
+				AB10DD45221D44EE0019A8A7 /* LaunchScreen.storyboard in Resources */,
+				AB10DD42221D44EE0019A8A7 /* Assets.xcassets in Resources */,
+				AB10DD40221D44ED0019A8A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD49221D44EE0019A8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD54221D44EE0019A8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB10DD33221D44ED0019A8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB10DD3D221D44ED0019A8A7 /* ViewController.swift in Sources */,
+				AB10DD3B221D44ED0019A8A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD47221D44EE0019A8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB10DD50221D44EE0019A8A7 /* Limit_Input_TextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB10DD52221D44EE0019A8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB10DD5B221D44EE0019A8A7 /* Limit_Input_TextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB10DD4D221D44EE0019A8A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB10DD36221D44ED0019A8A7 /* Limit Input Text */;
+			targetProxy = AB10DD4C221D44EE0019A8A7 /* PBXContainerItemProxy */;
+		};
+		AB10DD58221D44EE0019A8A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB10DD36221D44ED0019A8A7 /* Limit Input Text */;
+			targetProxy = AB10DD57221D44EE0019A8A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB10DD3E221D44ED0019A8A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB10DD3F221D44ED0019A8A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB10DD43221D44EE0019A8A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB10DD44221D44EE0019A8A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB10DD5D221D44EE0019A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB10DD5E221D44EE0019A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB10DD60221D44EE0019A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB10DD61221D44EE0019A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB10DD63221D44EE0019A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input TextTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Limit-Input-TextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limit Input Text.app/Limit Input Text";
+			};
+			name = Debug;
+		};
+		AB10DD64221D44EE0019A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input TextTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Limit-Input-TextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limit Input Text.app/Limit Input Text";
+			};
+			name = Release;
+		};
+		AB10DD66221D44EE0019A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input TextUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Limit-Input-TextUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Limit Input Text";
+			};
+			name = Debug;
+		};
+		AB10DD67221D44EE0019A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Limit Input TextUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Limit-Input-TextUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Limit Input Text";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB10DD32221D44EC0019A8A7 /* Build configuration list for PBXProject "Limit Input Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB10DD5D221D44EE0019A8A7 /* Debug */,
+				AB10DD5E221D44EE0019A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB10DD5F221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB10DD60221D44EE0019A8A7 /* Debug */,
+				AB10DD61221D44EE0019A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB10DD62221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input TextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB10DD63221D44EE0019A8A7 /* Debug */,
+				AB10DD64221D44EE0019A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB10DD65221D44EE0019A8A7 /* Build configuration list for PBXNativeTarget "Limit Input TextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB10DD66221D44EE0019A8A7 /* Debug */,
+				AB10DD67221D44EE0019A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB10DD2F221D44EC0019A8A7 /* Project object */;
+}

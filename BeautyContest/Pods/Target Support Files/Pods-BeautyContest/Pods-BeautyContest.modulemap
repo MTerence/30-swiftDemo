@@ -1,0 +1,6 @@
+framework module Pods_BeautyContest {
+  umbrella header "Pods-BeautyContest-umbrella.h"
+
+  export *
+  module * { export * }
+}

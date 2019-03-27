@@ -1,0 +1,8 @@
+target 'BeautyContest' do 
+
+use_frameworks!
+
+pod 'Koloda'
+pod 'SnapKit'
+
+end

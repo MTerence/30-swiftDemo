@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB183F362224E39E00B81221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB183F352224E39E00B81221 /* AppDelegate.swift */; };
+		AB183F382224E39E00B81221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB183F372224E39E00B81221 /* ViewController.swift */; };
+		AB183F3B2224E39E00B81221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB183F392224E39E00B81221 /* Main.storyboard */; };
+		AB183F3D2224E39F00B81221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB183F3C2224E39F00B81221 /* Assets.xcassets */; };
+		AB183F402224E39F00B81221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB183F3E2224E39F00B81221 /* LaunchScreen.storyboard */; };
+		AB183F4B2224E39F00B81221 /* Thumblr_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB183F4A2224E39F00B81221 /* Thumblr_MenuTests.swift */; };
+		AB183F562224E39F00B81221 /* Thumblr_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB183F552224E39F00B81221 /* Thumblr_MenuUITests.swift */; };
+		AB183F662224E82A00B81221 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB183F652224E82A00B81221 /* CustomButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB183F472224E39F00B81221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB183F2A2224E39E00B81221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB183F312224E39E00B81221;
+			remoteInfo = "Thumblr Menu";
+		};
+		AB183F522224E39F00B81221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB183F2A2224E39E00B81221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB183F312224E39E00B81221;
+			remoteInfo = "Thumblr Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB183F322224E39E00B81221 /* Thumblr Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thumblr Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB183F352224E39E00B81221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB183F372224E39E00B81221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB183F3A2224E39E00B81221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB183F3C2224E39F00B81221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB183F3F2224E39F00B81221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB183F412224E39F00B81221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB183F462224E39F00B81221 /* Thumblr MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thumblr MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB183F4A2224E39F00B81221 /* Thumblr_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumblr_MenuTests.swift; sourceTree = "<group>"; };
+		AB183F4C2224E39F00B81221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB183F512224E39F00B81221 /* Thumblr MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thumblr MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB183F552224E39F00B81221 /* Thumblr_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumblr_MenuUITests.swift; sourceTree = "<group>"; };
+		AB183F572224E39F00B81221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB183F652224E82A00B81221 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB183F2F2224E39E00B81221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F432224E39F00B81221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F4E2224E39F00B81221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB183F292224E39E00B81221 = {
+			isa = PBXGroup;
+			children = (
+				AB183F342224E39E00B81221 /* Thumblr Menu */,
+				AB183F492224E39F00B81221 /* Thumblr MenuTests */,
+				AB183F542224E39F00B81221 /* Thumblr MenuUITests */,
+				AB183F332224E39E00B81221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB183F332224E39E00B81221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB183F322224E39E00B81221 /* Thumblr Menu.app */,
+				AB183F462224E39F00B81221 /* Thumblr MenuTests.xctest */,
+				AB183F512224E39F00B81221 /* Thumblr MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB183F342224E39E00B81221 /* Thumblr Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AB183F352224E39E00B81221 /* AppDelegate.swift */,
+				AB183F372224E39E00B81221 /* ViewController.swift */,
+				AB183F392224E39E00B81221 /* Main.storyboard */,
+				AB183F3C2224E39F00B81221 /* Assets.xcassets */,
+				AB183F3E2224E39F00B81221 /* LaunchScreen.storyboard */,
+				AB183F412224E39F00B81221 /* Info.plist */,
+				AB183F652224E82A00B81221 /* CustomButton.swift */,
+			);
+			path = "Thumblr Menu";
+			sourceTree = "<group>";
+		};
+		AB183F492224E39F00B81221 /* Thumblr MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB183F4A2224E39F00B81221 /* Thumblr_MenuTests.swift */,
+				AB183F4C2224E39F00B81221 /* Info.plist */,
+			);
+			path = "Thumblr MenuTests";
+			sourceTree = "<group>";
+		};
+		AB183F542224E39F00B81221 /* Thumblr MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB183F552224E39F00B81221 /* Thumblr_MenuUITests.swift */,
+				AB183F572224E39F00B81221 /* Info.plist */,
+			);
+			path = "Thumblr MenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB183F312224E39E00B81221 /* Thumblr Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB183F5A2224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr Menu" */;
+			buildPhases = (
+				AB183F2E2224E39E00B81221 /* Sources */,
+				AB183F2F2224E39E00B81221 /* Frameworks */,
+				AB183F302224E39E00B81221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thumblr Menu";
+			productName = "Thumblr Menu";
+			productReference = AB183F322224E39E00B81221 /* Thumblr Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB183F452224E39F00B81221 /* Thumblr MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB183F5D2224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr MenuTests" */;
+			buildPhases = (
+				AB183F422224E39F00B81221 /* Sources */,
+				AB183F432224E39F00B81221 /* Frameworks */,
+				AB183F442224E39F00B81221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB183F482224E39F00B81221 /* PBXTargetDependency */,
+			);
+			name = "Thumblr MenuTests";
+			productName = "Thumblr MenuTests";
+			productReference = AB183F462224E39F00B81221 /* Thumblr MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB183F502224E39F00B81221 /* Thumblr MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB183F602224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr MenuUITests" */;
+			buildPhases = (
+				AB183F4D2224E39F00B81221 /* Sources */,
+				AB183F4E2224E39F00B81221 /* Frameworks */,
+				AB183F4F2224E39F00B81221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB183F532224E39F00B81221 /* PBXTargetDependency */,
+			);
+			name = "Thumblr MenuUITests";
+			productName = "Thumblr MenuUITests";
+			productReference = AB183F512224E39F00B81221 /* Thumblr MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB183F2A2224E39E00B81221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ternence;
+				TargetAttributes = {
+					AB183F312224E39E00B81221 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB183F452224E39F00B81221 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB183F312224E39E00B81221;
+					};
+					AB183F502224E39F00B81221 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB183F312224E39E00B81221;
+					};
+				};
+			};
+			buildConfigurationList = AB183F2D2224E39E00B81221 /* Build configuration list for PBXProject "Thumblr Menu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB183F292224E39E00B81221;
+			productRefGroup = AB183F332224E39E00B81221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB183F312224E39E00B81221 /* Thumblr Menu */,
+				AB183F452224E39F00B81221 /* Thumblr MenuTests */,
+				AB183F502224E39F00B81221 /* Thumblr MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB183F302224E39E00B81221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB183F402224E39F00B81221 /* LaunchScreen.storyboard in Resources */,
+				AB183F3D2224E39F00B81221 /* Assets.xcassets in Resources */,
+				AB183F3B2224E39E00B81221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F442224E39F00B81221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F4F2224E39F00B81221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB183F2E2224E39E00B81221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB183F382224E39E00B81221 /* ViewController.swift in Sources */,
+				AB183F362224E39E00B81221 /* AppDelegate.swift in Sources */,
+				AB183F662224E82A00B81221 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F422224E39F00B81221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB183F4B2224E39F00B81221 /* Thumblr_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB183F4D2224E39F00B81221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB183F562224E39F00B81221 /* Thumblr_MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB183F482224E39F00B81221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB183F312224E39E00B81221 /* Thumblr Menu */;
+			targetProxy = AB183F472224E39F00B81221 /* PBXContainerItemProxy */;
+		};
+		AB183F532224E39F00B81221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB183F312224E39E00B81221 /* Thumblr Menu */;
+			targetProxy = AB183F522224E39F00B81221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB183F392224E39E00B81221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB183F3A2224E39E00B81221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB183F3E2224E39F00B81221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB183F3F2224E39F00B81221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB183F582224E39F00B81221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB183F592224E39F00B81221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB183F5B2224E39F00B81221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Thumblr Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB183F5C2224E39F00B81221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
+				INFOPLIST_FILE = "Thumblr Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB183F5E2224E39F00B81221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thumblr MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Thumblr-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thumblr Menu.app/Thumblr Menu";
+			};
+			name = Debug;
+		};
+		AB183F5F2224E39F00B81221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thumblr MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Thumblr-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thumblr Menu.app/Thumblr Menu";
+			};
+			name = Release;
+		};
+		AB183F612224E39F00B81221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thumblr MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Thumblr-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thumblr Menu";
+			};
+			name = Debug;
+		};
+		AB183F622224E39F00B81221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thumblr MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Terence.Thumblr-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thumblr Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB183F2D2224E39E00B81221 /* Build configuration list for PBXProject "Thumblr Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB183F582224E39F00B81221 /* Debug */,
+				AB183F592224E39F00B81221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB183F5A2224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB183F5B2224E39F00B81221 /* Debug */,
+				AB183F5C2224E39F00B81221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB183F5D2224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB183F5E2224E39F00B81221 /* Debug */,
+				AB183F5F2224E39F00B81221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB183F602224E39F00B81221 /* Build configuration list for PBXNativeTarget "Thumblr MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB183F612224E39F00B81221 /* Debug */,
+				AB183F622224E39F00B81221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB183F2A2224E39E00B81221 /* Project object */;
+}

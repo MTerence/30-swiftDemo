@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKit_Extension" customModuleProvider="target">
+                    <items>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="Z1a-4m-Nsi">
+                            <connections>
+                                <action selector="sliderUpdate:" destination="AgC-eL-Hgc" id="MZX-8M-azQ"/>
+                            </connections>
+                        </slider>
+                        <label alignment="left" text="Your Guess :3" id="EyX-dl-BOF"/>
+                        <button width="1" alignment="left" title="Guess" id="YSN-wA-5uo">
+                            <connections>
+                                <action selector="guessAction" destination="AgC-eL-Hgc" id="37Z-x4-CRI"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="Label" id="uJe-rA-qm7"/>
+                        <label alignment="left" text="Press Guess to play" textAlignment="center" id="l6O-UE-AzB">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="resultConfirmButton" destination="YSN-wA-5uo" id="E4v-fx-nh5"/>
+                        <outlet property="resultLabel" destination="EyX-dl-BOF" id="gbQ-XN-PyO"/>
+                        <outlet property="resultOfGuess" destination="uJe-rA-qm7" id="qy5-xW-o2h"/>
+                        <outlet property="resultSlider" destination="Z1a-4m-Nsi" id="74p-M9-Rkg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="WatchKit_Extension" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="643"/>
+        </scene>
+    </scenes>
+</document>
